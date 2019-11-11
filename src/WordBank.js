@@ -6,7 +6,7 @@ export const WORD_BANK = {
 	partir: ['pars', 'pars', 'part', 'partons', 'partez', 'partent'],
 	sortir: ['sors', 'sors', 'sort', 'sortons', 'sortez', 'sortent'],
 	boire: ['bois', 'bois', 'boit', 'buvons', 'buvez', 'boivent'],
-	prends: ['prends', 'prends', 'prend', 'prenons', 'prenez', 'prennent'],
+	prendre: ['prends', 'prends', 'prend', 'prenons', 'prenez', 'prennent'],
 	apprendre: ['apprends', 'apprends', 'apprend', 'apprenons', 'apprenez', 'apprennent'],
 	comprendre: ['comprends', 'comprends', 'comprend', 'comprenons', 'comprenez', 'comprennent'],
 	avoir: ['ai', 'as', 'a', 'avons', 'avez', 'ont'],
