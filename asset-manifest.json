@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/frenchverbsquiz/static/css/main.8c67dbd5.chunk.css",
-    "main.js": "/frenchverbsquiz/static/js/main.6911a9e8.chunk.js",
-    "main.js.map": "/frenchverbsquiz/static/js/main.6911a9e8.chunk.js.map",
+    "main.js": "/frenchverbsquiz/static/js/main.9abb3de8.chunk.js",
+    "main.js.map": "/frenchverbsquiz/static/js/main.9abb3de8.chunk.js.map",
     "runtime-main.js": "/frenchverbsquiz/static/js/runtime-main.52529e01.js",
     "runtime-main.js.map": "/frenchverbsquiz/static/js/runtime-main.52529e01.js.map",
     "static/js/2.c3f3d1ad.chunk.js": "/frenchverbsquiz/static/js/2.c3f3d1ad.chunk.js",
     "static/js/2.c3f3d1ad.chunk.js.map": "/frenchverbsquiz/static/js/2.c3f3d1ad.chunk.js.map",
     "index.html": "/frenchverbsquiz/index.html",
-    "precache-manifest.07558225121dd22bd4e5ca94fd3897e1.js": "/frenchverbsquiz/precache-manifest.07558225121dd22bd4e5ca94fd3897e1.js",
+    "precache-manifest.30938fd1d5677df03a67f57c06176559.js": "/frenchverbsquiz/precache-manifest.30938fd1d5677df03a67f57c06176559.js",
     "service-worker.js": "/frenchverbsquiz/service-worker.js",
     "static/css/main.8c67dbd5.chunk.css.map": "/frenchverbsquiz/static/css/main.8c67dbd5.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.52529e01.js",
     "static/js/2.c3f3d1ad.chunk.js",
     "static/css/main.8c67dbd5.chunk.css",
-    "static/js/main.6911a9e8.chunk.js"
+    "static/js/main.9abb3de8.chunk.js"
   ]
 }
