@@ -62,7 +62,7 @@ class Quiz extends Component {
 		e.preventDefault();
 		const correct = this.getCorrectAnswer();
 		const { answer } = this.state;
-		if (correct === answer) {
+		if (correct === answer.toLowerCase()) {
 			this.setState((prevState) => ({
 				result: 1,
 				correctCount: prevState.correctCount + 1,
