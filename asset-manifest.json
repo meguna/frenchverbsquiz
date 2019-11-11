@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/frenchverbsquiz/static/css/main.8c67dbd5.chunk.css",
+    "main.js": "/frenchverbsquiz/static/js/main.1b3c112c.chunk.js",
+    "main.js.map": "/frenchverbsquiz/static/js/main.1b3c112c.chunk.js.map",
+    "runtime-main.js": "/frenchverbsquiz/static/js/runtime-main.52529e01.js",
+    "runtime-main.js.map": "/frenchverbsquiz/static/js/runtime-main.52529e01.js.map",
+    "static/js/2.c3f3d1ad.chunk.js": "/frenchverbsquiz/static/js/2.c3f3d1ad.chunk.js",
+    "static/js/2.c3f3d1ad.chunk.js.map": "/frenchverbsquiz/static/js/2.c3f3d1ad.chunk.js.map",
+    "index.html": "/frenchverbsquiz/index.html",
+    "precache-manifest.e735ec6e992d6d640ecf8378740ad4e4.js": "/frenchverbsquiz/precache-manifest.e735ec6e992d6d640ecf8378740ad4e4.js",
+    "service-worker.js": "/frenchverbsquiz/service-worker.js",
+    "static/css/main.8c67dbd5.chunk.css.map": "/frenchverbsquiz/static/css/main.8c67dbd5.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52529e01.js",
+    "static/js/2.c3f3d1ad.chunk.js",
+    "static/css/main.8c67dbd5.chunk.css",
+    "static/js/main.1b3c112c.chunk.js"
+  ]
+}
