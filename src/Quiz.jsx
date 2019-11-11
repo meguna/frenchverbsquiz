@@ -27,7 +27,6 @@ class Quiz extends Component {
 
 	setRandom() {
 		const rand = Math.floor(Math.random() * Object.keys(WORD_BANK).length);
-		console.log(rand);
 		const randPronoun = Math.floor(Math.random() * PRONOUNS.length);
 		const key = Object.keys(WORD_BANK)[rand]
 		this.setState({
@@ -95,12 +94,12 @@ class Quiz extends Component {
 			wrongCount
 		} = this.state;
 		let currPronounDisplay = currPronoun;
-		if (currPronoun === 'je' &&
-			currWord[0] === 'a' ||
-			currWord[0] === 'e' ||
-			currWord[0] === 'i' ||
-			currWord[0] === 'o' ||
-			currWord[0] === 'u') {
+		if (currPronoun === 'je' && answer !== '' &&
+			(answer[0] === 'a' ||
+			answer[0] === 'e' ||
+			answer[0] === 'i' ||
+			answer[0] === 'o' ||
+			answer[0] === 'u')) {
 			currPronounDisplay = "j'";
 		}
 		return (
