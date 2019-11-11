@@ -1,0 +1,21 @@
+export const WORD_BANK = {
+	dormir: ['dors', 'dors', 'dort', 'dormons', 'dormez', 'dorment'],
+	servir: ['sers', 'sers', 'sert', 'servons', 'servez', 'servent'],
+	sentir: ['sens', 'sens', 'sent', 'sentons', 'sentez', 'sentent'],
+	courir: ['cours', 'cours', 'court', 'courons', 'courez', 'courent'],
+	partir: ['pars', 'pars', 'part', 'partons', 'partez', 'partent'],
+	sortir: ['sors', 'sors', 'sort', 'sortons', 'sortez', 'sortent'],
+	boire: ['bois', 'bois', 'boit', 'buvons', 'buvez', 'boivent'],
+	prends: ['prends', 'prends', 'prend', 'prenons', 'prenez', 'prennent'],
+	apprendre: ['apprends', 'apprends', 'apprend', 'apprenons', 'apprenez', 'apprennent'],
+	comprendre: ['comprends', 'comprends', 'comprend', 'comprenons', 'comprenez', 'comprennent'],
+	avoir: ['ai', 'as', 'a', 'avons', 'avez', 'ont'],
+	être: ['suis', 'es', 'est', 'sommes', 'êtes', 'sont'],
+	faire: ['fais', 'fais', 'fait', 'faisons', 'faites', 'font'],
+	aller: ['vais', 'vas', 'va', 'allons', 'allez', 'vont'],
+	adorer: ['adore', 'adores', 'adore', 'adorons', 'adorez', 'adorent'],
+	étudier: ['étudie', 'étudies', 'étudie', 'étudions', 'étudiez', 'étudient'],
+	manger: ['mange', 'manges', 'mange', 'mangeons', 'mangez', 'mangent'],
+	commencer: ['commence', 'commences', 'commence', 'commençons', 'commencez', 'commencent'],
+}
+

@@ -1,12 +1,6 @@
 import React, { Component } from 'react';
 import './Quiz.css';
-
-const WORD_BANK = {
-	dormir: ['dors', 'dors', 'dort', 'dormons', 'dormez', 'dorment'],
-	servir: ['sers', 'sers', 'sert', 'servons', 'servez', 'servent'],
-	avoir: ['ai', 'as', 'a', 'avons', 'avez', 'ont'],
-	être: ['suis', 'es', 'est', 'sommes', 'êtes', 'sont'],
-}
+import { WORD_BANK } from './WordBank';
 
 const PRONOUNS = ['je', 'tu', 'il', 'elle', 'on', 'nous', 'vous', 'ils', 'elles'];
 
@@ -57,6 +51,8 @@ class Quiz extends Component {
 			correct = currWordForms[5];
 		} else if (currPronoun === 'vous') {
 			correct = currWordForms[4];
+		} else if (currPronoun === 'nous') {
+			correct = currWordForms[3];
 		} else {
 			correct = currWordForms[PRONOUNS.indexOf(currPronoun)];
 		}
@@ -98,11 +94,20 @@ class Quiz extends Component {
 			correctCount,
 			wrongCount
 		} = this.state;
+		let currPronounDisplay = currPronoun;
+		if (currPronoun === 'je' &&
+			currWord[0] === 'a' ||
+			currWord[0] === 'e' ||
+			currWord[0] === 'i' ||
+			currWord[0] === 'o' ||
+			currWord[0] === 'u') {
+			currPronounDisplay = "j'";
+		}
 		return (
 			<div>
 				<p className="test-word">{currWord}</p>
 				<form onSubmit={this.onSubmit}>
-					<span className="test-pronoun">{currPronoun}</span>
+					<span className="test-pronoun">{currPronounDisplay}</span>
 					<input
 						className="text-input"
 						type="text"
