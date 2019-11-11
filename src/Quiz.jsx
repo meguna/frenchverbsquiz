@@ -62,7 +62,6 @@ class Quiz extends Component {
 		e.preventDefault();
 		const correct = this.getCorrectAnswer();
 		const { answer } = this.state;
-		console.log(correct, answer);
 		if (correct === answer) {
 			this.setState((prevState) => ({
 				result: 1,
