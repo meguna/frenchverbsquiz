@@ -13,6 +13,7 @@
   padding: 10vmin;
   font-family: 'Zilla Slab', serif;
   font-weight: 400;
+  box-sizing: border-box;
 }
 
 .title {
