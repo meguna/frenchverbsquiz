@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "57623030fef65f4c5a8bb5c76e71e78c",
+    "revision": "3414f4af222bf57c061c77380e39add2",
     "url": "/frenchverbsquiz/index.html"
   },
   {
-    "revision": "847f52d36083107d27f1",
+    "revision": "07afdc7b729c3023b490",
     "url": "/frenchverbsquiz/static/css/main.8c67dbd5.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/frenchverbsquiz/static/js/2.c3f3d1ad.chunk.js"
   },
   {
-    "revision": "847f52d36083107d27f1",
-    "url": "/frenchverbsquiz/static/js/main.1b3c112c.chunk.js"
+    "revision": "07afdc7b729c3023b490",
+    "url": "/frenchverbsquiz/static/js/main.6911a9e8.chunk.js"
   },
   {
     "revision": "403c0ae2ebd3b442200e",
